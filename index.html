@@ -11,8 +11,329 @@
 <body>
 
     <!-- visible content goes here -->
-	<h1>Usability Test</h1>
-	<p>See README.md for info</p>
+	<div class="container-fluid">
+
+        <!--Header-->
+        <div class="header-background">
+            <div class="row orange whitetxt text-center">
+                <div class="col-md-12">
+                    <h1>A Usability Test for Goodreads.com</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Intro section-->
+        <div class="Intro">
+            <div class="row middlebox">
+                <div class="col-12">
+                    <h4>What is a usability test?</h4>
+         <!--Include what tasks are in this description or add a methodology part-->
+                         <p>A usability test is a method that is used to check how user-friendly and easy to use a website is.</p>
+                         <p>This test invloves giving a user 5 realistic tasks to complete on the goodreads website while observing and making
+                            comments on their interactions.
+                         </p>
+
+                         <p>In this test, we also note down how long it took the user to accomplish each task.</p>
+                    <h4>What is Goodreads.com?</h4>
+                    <p>Goodreads is a website owned by Amazon.com, that allows users to get book 
+                    recommendations, rate and review books, and engage with a community of readers. </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Task 1-->
+        <div class="row middlebox">
+            <div class="col-12 col-lg-7">
+                <h4>TASK 1: MAKE AN ACCOUNT/SIGN IN</h4>
+                <p>Our first task was for the user to go to the website and sign in or make an account (for first time users).</p> 
+               <p>When the user got to the website, they were quickly able to find the 'Log in' section.
+                Even better, they were able to link goodreads to their Amazon account in order to sign in.</p>
+                <p>Overall, this was an easy task for our user.</p>
+               <br>
+               <p id="time-stamps">Time: 5s</p>
+            </div>
+
+            <div class="col-12 col-lg-5">
+                <img src="assets\img\task1.png" class="shadow-lg img-fluid">
+            </div>
+        </div>
+
+
+        <!--Task 2-->
+        <div class="row middlebox">
+            <div class="col-12 col-lg-7">
+                <h4>TASK 2: FIND YOUR FAVORITE BOOK</h4>
+                <p>The second task was for the user to search for a book of their preference.</p>
+                
+                <p>This task was fairly easy because the search bar was not difficult to spot. The book 
+                    immediately popped up when the user hit search.</p>
+                <br>
+                <p id="time-stamps">Time: 11s</p>
+            </div>
+
+            <div class="col-12 col-lg-5">
+                <img src="assets\img\task2.png" class="shadow-lg img-fluid">
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--Task 3-->
+        <div class="row middlebox">
+            <div class="col-12 col-lg-7">
+                <h4>TASK 3: ADD A BOOK TO YOUR "WANT TO READ" LIST</h4>
+                <p>After finding their favorite book, the user had to add it to a 'Want to read' list for future reference.</p>
+                
+                <p>When prompted to do so, the user immediately spotted the green 'Want to read' button next to the 
+                    book and added the book to the list. </p>
+                <p>Overall, this was a simple task because the button was not hard to spot.</p>
+                <br>
+                <p id="time-stamps">Time: 3s</p>
+            </div>
+
+            <div class="col-12 col-lg-5">
+                <img src="assets\img\task3.png" class="shadow-lg img-fluid">
+            </div>
+        </div>
+
+
+
+
+
+        <!--Task 4-->
+        <div class="row middlebox">
+            <div class="col-12 col-lg-7">
+                <h4>TASK 4: JOIN READING GROUP OF INTEREST</h4>
+                <p>The next task was for the user to find and join a reading group they found interesting. A reading group is where
+                    readers can discuss books and share recommendations.
+                </p>
+                
+                <p>The user easily navigated to the community tab, where they found the groups' section. However, the user faced some difficulties when trying to 
+                    join one: </p>
+                
+                <p>
+                    <ul>
+                    <li>They noticed that some groups were invite-only and there were no identifiers for which ones were or weren't.</li>
+                    <li>The user had to add birthday information to join the group.</li>
+                </ul>
+                </p>
+
+                <p style="font-style: italic">One recommendation for improvement would be to separate the groups into
+                    invite-only and all-access groups.
+                </p>
+
+                <br>
+                <p id="time-stamps">Time: 1min 45s</p>
+            </div>
+
+            <div class="col-12 col-lg-5">
+                <img src="assets\img\task4.png" class="shadow-lg img-fluid">
+            </div>
+        </div>
+
+
+
+        <!--Task 5-->
+        <div class="row middlebox">
+            <div class="col-12 col-lg-7">
+                <h4>TASK 5: LIKE SOMEONE'S POST</h4>
+                <p>This task required the user to like a post made by another goodreads user.</p>
+                
+                <p>When looking for posts to like, the user was not sure of which ones were likeable i.e. book reviews, profile posts, or comments?</p>
+                <p>Another issue arose when the user could not find a like button, but eventually did, after some time perusing the page.</p>
+                <p>After all the trouble with finding a like button, the user made a comment about how the page looked cluttered, indicating an unpleasant design.
+                </p>
+                <br>
+                <p id="time-stamps">Time: 2min 19s</p>
+            </div>
+
+            <div class="col-12 col-lg-5">
+                <img src="assets\img\task5.png" class="shadow-lg img-fluid">
+            </div>
+        </div>
+
+    <!-- container </div> -->
+
+
+<!--SUS Score Form-->
+<form action="#" id="myForm" class="middlebox">
+
+    <div class="row"  id="SUStitle">
+        <div class="col-12">
+            <h4 class="text-center">System Usability Scale (SUS)</h4>
+            <p>The System Usability Scale is a measure of a system's usability by prompting users to 
+                rate their experience after using a product, on a scale of 1(Strongly Disagree)-5(Strongly Agree), for ten statements.
+            </p>
+            
+        </div>
+    </div>
+
+    <!--q1-->
+	<div class="row" id="SUSrow">
+	  <div class="col-6 col-lg-10 order-lg-last"> 
+		  <label for="q1">I think that I would like to use this system frequently.</label>
+		</div>
+
+        <div class="col-6 col-lg-2">
+		<input class="form-control" type="number" id="q1" min="1" max="5" value="2"  required>
+		</div>
+     </div>
+
+
+     
+		<!--q2-->
+    <div class="row" id="SUSrow">
+      <div class="col-6 col-lg-10 order-lg-last">
+		<label for="q2">I found the system unnecessarily complex.</label>
+      </div>
+      <div class="col-6 col-lg-2">
+		<input class="form-control" type="number" id="q2" min="1" max="5" value="4" required>
+      </div>
+    </div>
+     
+
+
+		<!--q3-->
+    <div class="row" id="SUSrow">
+      <div class="col-6 col-lg-10 order-lg-last">
+		<label for="q3">I thought the system was easy to use.</label>
+      </div>
+      <div class="col-6 col-lg-2">
+		<input class="form-control" type="number" id="q3" min="1" max="5" value="3" required>
+      </div>
+    </div>
+
+
+
+		<!--q4-->
+    <div class="row" id="SUSrow">
+      <div class="col-6 col-lg-10 order-lg-last">
+		<label for="q4">I think that I would need the support of a technical person to be able to use this system.</label>
+	  </div>
+      <div class="col-6 col-lg-2">
+        <input class="form-control" type="number" id="q4" min="1" max="5" value="1" required>
+      </div>
+    </div>
+
+
+    
+		<!--q5-->
+    <div class="row" id="SUSrow">
+      <div class="col-6 col-lg-10 order-lg-last">
+		<label for="q5">I found the various functions in this system were well integrated.</label>
+	  </div>
+      <div class="col-6 col-lg-2">
+        <input class="form-control" type="number" id="q5" min="1" max="5" value="3" required>
+      </div>
+    </div>
+
+
+
+		<!--q6-->
+    <div class="row" id="SUSrow">
+      <div class="col-6 col-lg-10 order-lg-last">
+		<label for="q6">I thought there was too much inconsistency in this system.</label>
+	  </div>
+      <div class="col-6 col-lg-2">
+        <input class="form-control" type="number" id="q6" min="1" max="5" value="5" required>
+      </div>
+    </div>
+
+
+
+		<!--q7-->
+    <div class="row" id="SUSrow">
+      <div class="col-6 col-lg-10 order-lg-last">
+		<label for="q7">I would imagine that most people would learn to use this system very quickly.</label>
+	  </div>
+      <div class="col-6 col-lg-2">
+        <input class="form-control" type="number" id="q7" min="1" max="5" value="4" required>
+      </div>
+    </div>
+
+
+
+		<!--q8-->
+    <div class="row" id="SUSrow">
+      <div class="col-6 col-lg-10 order-lg-last">
+		<label for="q8">I found the system very cumbersome to use.</label>
+	  </div>
+      <div class="col-6 col-lg-2">
+        <input class="form-control" type="number" id="q8" min="1" max="5" value="3" required>
+      </div>
+    </div>
+
+
+
+    
+		<!--q9-->
+    <div class="row" id="SUSrow">
+      <div class="col-6 col-lg-10 order-lg-last">
+		<label for="q9">I felt very confident using the system</label>
+      </div>
+      <div class="col-6 col-lg-2">
+		<input class="form-control" type="number" id="q9" min="1" max="5" value="2" required>
+      </div>
+    </div>
+
+
+
+		<!--q10-->
+    <div class="row" id="SUSrow">
+      <div class="col-6 col-lg-10 order-lg-last">
+		<label for="q9">I needed to learn a lot of things before I could get going with this system.</label>
+	  </div>
+
+      <div class="col-6 col-lg-2">
+        <input class="form-control" type="number" id="q10" min="1" max="5" value="3" required>
+      </div>
+    </div>
+
+
+
+		<!--Submit button-->
+
+    <div class="row" id="submit-button">
+      <div class="col-6 col-lg-10 order-lg-last">
+		<button type="submit">Get score</button>
+      </div>
+      <div class="col-6 col-lg-2">
+		<input class="form-control" type="number" id="answer">
+      </div>
+    </div>
+		
+	</form>
+</div>
+
+
+
+
+     <!--CONCLUSION-->
+        <div class="row middlebox">
+            <div class="col-12">
+                <h4>Conclusion</h4>
+                <p>Goodreads had some issues affecting its ease of use; </p>
+             <p>
+                <ul>
+                    <li>First, it is difficult to identify the option to like someone’s post.</li> 
+                    <li>Finding a reading group is easy. However, there are still more steps to complete before actually joining one e.g. adding your birthday info.</li>
+                    <li>A user is not able to distinguish which groups are invite-only or all-access.</li>
+                </ul>
+            </p>
+            
+            <p>Generally, the website can be navigated easily, even though there are some minor issues that need 
+            to be improved like the ones mentioned above and the way items are arranged to avoid clutter on some of the pages.</p>     
+            </div>
+
+        </div>
+</div>
+
 
     <!-- load javascript after the page elements render -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
